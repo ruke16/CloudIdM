@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "cloudExists",
+        "transactionLabel": "A test cloudExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createcloud",
+        "transactionLabel": "A test createcloud transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readcloud",
+        "transactionLabel": "A test readcloud transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updatecloud",
+        "transactionLabel": "A test updatecloud transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deletecloud",
+        "transactionLabel": "A test deletecloud transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
