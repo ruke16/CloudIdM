@@ -1,0 +1,39 @@
+[
+    {
+      "name": "CSP1-CSP2-PrivateCollection",
+      "policy": "OR('CSP1MSP.member', 'CSP2MSP.member')",
+      "requiredPeerCount": 0,
+      "maxPeerCount": 1,
+      "blockToLive":0,
+      "memberOnlyRead": true,
+      "memberOnlyWrite": false,
+      "endorsementPolicy": {
+       "signaturePolicy": "OR('CSP1MSP.member', 'CSP2MSP.member')"
+     }
+   },
+    {
+      "name": "CSP1-PrivateCollection",
+      "policy": "OR('CSP1MSP.member')",
+      "requiredPeerCount": 0,
+      "maxPeerCount": 1,
+      "blockToLive":0,
+      "memberOnlyRead": true,
+      "memberOnlyWrite": false,
+      "endorsementPolicy": {
+        "signaturePolicy": "OR('CSP1MSP.member')"
+      }
+    },
+    {
+      "name": "CSP2-PrivateCollection",
+      "policy": "OR('CSP2MSP.member')",
+      "requiredPeerCount": 0,
+      "maxPeerCount": 1,
+      "blockToLive":0,
+      "memberOnlyRead": true,
+      "memberOnlyWrite": false,
+      "endorsementPolicy": {
+        "signaturePolicy": "OR('CSP2MSP.member')"
+      }
+    }
+]
+   
